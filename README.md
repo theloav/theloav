@@ -225,12 +225,12 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
   <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theloav&theme=radical" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=theloav&theme=radical&hide_border=true" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theloav&theme=radical" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theloav&theme=radical" height="185"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theloav&theme=radical" height="185"/>
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theloav&theme=radical" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theloav&theme=radical&utcOffset=5.5" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theloav&theme=radical" height="185"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theloav&theme=radical&utcOffset=5.5" height="185"/>
 </p>
 
 <!-- Animated contribution activity graph -->
