@@ -14,7 +14,12 @@
   <img src="https://komarev.com/ghpvc/?username=theloav&style=for-the-badge&color=38C2FF&label=PROFILE+VIEWS" />
 </p>
 
----
+<!-- Custom animated hacker-terminal (hand-coded SVG in /assets) -->
+<p align="center">
+  <img width="80%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/terminal.svg" alt="security terminal" />
+</p>
+
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
 ### 👨‍💻 About Me
 
@@ -89,7 +94,7 @@ class Shrivarshan:
   <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&color=000000" />
 </div>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
 ### 🚀 Featured Projects
 
@@ -212,7 +217,7 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
 
 **B.Tech in Computer Science & Engineering (Cybersecurity)** — *Vel Tech R&D Institute of Science and Technology* · 2022 – 2026
 
----
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
 ### 📈 GitHub Stats
 
