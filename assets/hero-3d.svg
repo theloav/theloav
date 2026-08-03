@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-label="Shrivarshan Kasi Arul — Security Engineer, Red Teamer, AI Security Researcher. Isometric diagram of the offensive to defensive security loop.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="55%"  stop-color="#0f1620"/>
+      <stop offset="100%" stop-color="#0a1a26"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#38C2FF" stop-opacity=".20"/>
+      <stop offset="100%" stop-color="#38C2FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="fOff" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9a93"/><stop offset="100%" stop-color="#e8564c"/>
+    </linearGradient>
+    <linearGradient id="fDet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c297ff"/><stop offset="100%" stop-color="#8b53e8"/>
+    </linearGradient>
+    <linearGradient id="fDef" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#67d97a"/><stop offset="100%" stop-color="#2ea043"/>
+    </linearGradient>
+
+    <pattern id="mesh" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="matrix(0.917,0.396,-0.917,0.396,0,0)">
+      <path d="M26 0H0V26" fill="none" stroke="#0d1117" stroke-opacity=".22" stroke-width="1"/>
+    </pattern>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+
+    <marker id="tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38C2FF"/>
+    </marker>
+
+    <path id="loopArc" d="M585,368 C470,346 470,170 585,148"/>
+  </defs>
+
+  <style>
+    .mono { font-family:'Fira Code','JetBrains Mono','DejaVu Sans Mono','Courier New',monospace; }
+    .sans { font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+
+    .slab      { animation: bob 7s ease-in-out infinite; }
+    .slab.s2   { animation-delay:-2.3s }
+    .slab.s3   { animation-delay:-4.6s }
+    @keyframes bob { 0%,100%{ transform:translateY(0) } 50%{ transform:translateY(-9px) } }
+
+    .halo   { animation: pulse 6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{ opacity:.55 } 50%{ opacity:1 } }
+
+    .flow   { stroke-dasharray:9 11; animation: march 1.6s linear infinite; }
+    @keyframes march { to { stroke-dashoffset:-40 } }
+
+    /* Base state is fully visible; the entrance uses fill-mode `both`, so a
+       renderer that ignores CSS animation still shows the finished artwork. */
+    .rise   { opacity:1; animation: rise 900ms ease-out both; }
+    .d1{animation-delay:.10s}.d2{animation-delay:.26s}.d3{animation-delay:.42s}
+    .d4{animation-delay:.58s}.d5{animation-delay:.74s}
+    @keyframes rise { from{ opacity:0; transform:translateY(14px) } to{ opacity:1; transform:translateY(0) } }
+
+    .chip   { animation: chip 4.5s ease-in-out infinite; }
+    .chip.c2{ animation-delay:-1.5s } .chip.c3{ animation-delay:-3s }
+    @keyframes chip { 0%,100%{ opacity:.80 } 50%{ opacity:1 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise{ animation:none; opacity:1; transform:none }
+      .slab,.halo,.flow,.chip{ animation:none }
+    }
+  </style>
+
+  <rect width="1100" height="520" rx="18" fill="url(#bg)"/>
+  <ellipse class="halo" cx="800" cy="256" rx="330" ry="240" fill="url(#halo)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#38C2FF" stroke-opacity=".5" stroke-width="2" fill="none">
+    <path d="M20 54 V20 H54"/><path d="M1080 54 V20 H1046"/>
+    <path d="M20 466 V500 H54"/><path d="M1080 466 V500 H1046"/>
+  </g>
+
+  <!-- ══════════════════ identity block ══════════════════ -->
+  <g class="sans">
+    <text class="mono rise d1" x="56" y="138" font-size="14" letter-spacing="5" fill="#38C2FF">SECURITY ENGINEER // RED TEAMER</text>
+    <text class="rise d2" x="56" y="196" font-size="46" font-weight="700" fill="#e6edf3" letter-spacing="-.5">SHRIVARSHAN</text>
+    <text class="rise d3" x="56" y="248" font-size="46" font-weight="700" fill="#38C2FF" letter-spacing="-.5">KASI ARUL</text>
+    <rect class="rise d3" x="56" y="272" width="92" height="3" rx="1.5" fill="#38C2FF"/>
+    <text class="rise d4" x="56" y="312" font-size="18" fill="#c9d1d9">I break LLMs before attackers do.</text>
+    <text class="mono rise d4" x="56" y="340" font-size="12.5" fill="#7d8590">AI &amp; LLM red teaming · AppSec · DevSecOps · detection engineering</text>
+
+    <g class="mono rise d5" font-size="11.5" letter-spacing="1.2">
+      <g class="chip">
+        <rect x="56" y="374" width="150" height="30" rx="15" fill="#38C2FF" fill-opacity=".12" stroke="#38C2FF" stroke-opacity=".6"/>
+        <text x="131" y="393" text-anchor="middle" fill="#38C2FF">#1 HALL OF FAME</text>
+      </g>
+      <g class="chip c2">
+        <rect x="216" y="374" width="152" height="30" rx="15" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".6"/>
+        <text x="292" y="393" text-anchor="middle" fill="#3fb950">6 VENDOR CREDITS</text>
+      </g>
+      <g class="chip c3">
+        <rect x="56" y="414" width="312" height="30" rx="15" fill="#a371f7" fill-opacity=".12" stroke="#a371f7" stroke-opacity=".6"/>
+        <text x="212" y="433" text-anchor="middle" fill="#a371f7">PROMPT INJECTION · BOLA · PRIV-ESC · RCE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ══════════════════ isometric loop stack ══════════════════ -->
+
+  <ellipse cx="800" cy="472" rx="200" ry="32" fill="#000" opacity=".5" filter="url(#soft)"/>
+
+  <!-- LAYER 3 — DEFENSIVE (bottom) -->
+  <g class="slab s3">
+    <polygon points="585,356 800,451 800,468 585,373" fill="#1f6f2c"/>
+    <polygon points="800,451 1015,356 1015,373 800,468" fill="#14501e"/>
+    <polygon points="585,356 800,451 1015,356 800,261" fill="url(#fDef)"/>
+    <polygon points="585,356 800,451 1015,356 800,261" fill="url(#mesh)"/>
+    <polygon points="585,356 800,451 1015,356 800,261" fill="none" stroke="#7ee787" stroke-opacity=".9" stroke-width="1.6"/>
+    <g transform="matrix(0.917,0.396,-0.917,0.396,800,344)">
+      <text class="mono" text-anchor="middle" font-size="19" letter-spacing="2.5" fill="#0d1117" font-weight="700" y="0">DEFENSIVE</text>
+      <text class="mono" text-anchor="middle" font-size="11" letter-spacing="1.4" fill="#0d1117" opacity=".75" y="18">patch · guardrail · harden</text>
+    </g>
+  </g>
+
+  <!-- LAYER 2 — DETECTION (middle) -->
+  <g class="slab s2">
+    <polygon points="585,248 800,343 800,360 585,265" fill="#6b41ad"/>
+    <polygon points="800,343 1015,248 1015,265 800,360" fill="#472b73"/>
+    <polygon points="585,248 800,343 1015,248 800,153" fill="url(#fDet)"/>
+    <polygon points="585,248 800,343 1015,248 800,153" fill="url(#mesh)"/>
+    <polygon points="585,248 800,343 1015,248 800,153" fill="none" stroke="#d2b8ff" stroke-opacity=".9" stroke-width="1.6"/>
+    <g transform="matrix(0.917,0.396,-0.917,0.396,800,236)">
+      <text class="mono" text-anchor="middle" font-size="19" letter-spacing="2.5" fill="#0d1117" font-weight="700" y="0">DETECTION</text>
+      <text class="mono" text-anchor="middle" font-size="11" letter-spacing="1.4" fill="#0d1117" opacity=".75" y="18">sigma · KQL · ATT&amp;CK</text>
+    </g>
+  </g>
+
+  <!-- LAYER 1 — OFFENSIVE (top) -->
+  <g class="slab">
+    <polygon points="585,140 800,235 800,252 585,157" fill="#b0463f"/>
+    <polygon points="800,235 1015,140 1015,157 800,252" fill="#782d28"/>
+    <polygon points="585,140 800,235 1015,140 800,45" fill="url(#fOff)"/>
+    <polygon points="585,140 800,235 1015,140 800,45" fill="url(#mesh)"/>
+    <polygon points="585,140 800,235 1015,140 800,45" fill="none" stroke="#ffc1bc" stroke-opacity=".9" stroke-width="1.6"/>
+    <g transform="matrix(0.917,0.396,-0.917,0.396,800,128)">
+      <text class="mono" text-anchor="middle" font-size="19" letter-spacing="2.5" fill="#0d1117" font-weight="700" y="0">OFFENSIVE</text>
+      <text class="mono" text-anchor="middle" font-size="11" letter-spacing="1.4" fill="#0d1117" opacity=".75" y="18">recon · inject · exploit</text>
+    </g>
+  </g>
+
+  <!-- descending payloads -->
+  <g>
+    <circle r="5" fill="#ffffff">
+      <animateMotion dur="3.4s" repeatCount="indefinite" path="M800,150 L800,258"/>
+      <animate attributeName="opacity" dur="3.4s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.12;0.8;1"/>
+    </circle>
+    <circle r="5" fill="#ffffff">
+      <animateMotion dur="3.4s" begin="1.1s" repeatCount="indefinite" path="M800,258 L800,366"/>
+      <animate attributeName="opacity" dur="3.4s" begin="1.1s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.12;0.8;1"/>
+    </circle>
+  </g>
+
+  <!-- feedback loop: defensive output drives the next offensive pass -->
+  <use href="#loopArc" fill="none" stroke="#38C2FF" stroke-opacity=".9" stroke-width="2.2" marker-end="url(#tip)" class="flow"/>
+  <text class="mono" font-size="11" letter-spacing="1.5" fill="#38C2FF" dy="-7">
+    <textPath href="#loopArc" startOffset="50%" text-anchor="middle">RE-TEST · REGRESS · REPEAT</textPath>
+  </text>
+</svg>

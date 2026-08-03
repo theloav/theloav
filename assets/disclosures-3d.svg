@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" role="img" aria-label="Isometric chart of responsible-disclosure credits: Genxploit number one hall of fame, Ai Web Solutions hall of fame, Sakana AI credit and swag, QENEX letter of appreciation, Humphreys University letter of appreciation, TinyTax vendor confirmed.">
+  <defs>
+    <linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#0c1620"/>
+    </linearGradient>
+    <filter id="dsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family:'Fira Code','JetBrains Mono','DejaVu Sans Mono','Courier New',monospace; }
+    .sans { font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif; }
+
+    /* Base state is fully visible; the entrance uses fill-mode `both`, so a
+       renderer that ignores CSS animation still shows the finished artwork. */
+    .col  { opacity:1; animation: grow 800ms cubic-bezier(.2,.8,.3,1) both; }
+    .p1{animation-delay:.05s}.p2{animation-delay:.18s}.p3{animation-delay:.31s}
+    .p4{animation-delay:.44s}.p5{animation-delay:.57s}.p6{animation-delay:.70s}
+    @keyframes grow { from{ opacity:0; transform:translateY(26px) } to{ opacity:1; transform:translateY(0) } }
+
+    .beam { opacity:.5; animation: sheen 5s ease-in-out infinite; }
+    .b2{animation-delay:-.8s}.b3{animation-delay:-1.6s}.b4{animation-delay:-2.4s}
+    .b5{animation-delay:-3.2s}.b6{animation-delay:-4s}
+    @keyframes sheen { 0%,100%{ opacity:.28 } 50%{ opacity:.8 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .col { animation:none; opacity:1; transform:none }
+      .beam{ animation:none }
+    }
+  </style>
+
+  <rect width="1100" height="400" rx="16" fill="url(#dbg)"/>
+
+  <text class="mono" x="40" y="44" font-size="14" letter-spacing="4.5" fill="#38C2FF">RESPONSIBLE DISCLOSURE RECORD</text>
+  <line x1="40" y1="58" x2="1060" y2="58" stroke="#30363d"/>
+
+  <!-- ───────── 1. Genxploit · h=130 · topCy=168 ───────── -->
+  <g class="col p1">
+    <ellipse class="beam" cx="125" cy="330" rx="80" ry="14" fill="#e3b341" filter="url(#dsoft)"/>
+    <polygon points="53,168 125,200 125,330 53,298" fill="#a67f2b"/>
+    <polygon points="125,200 197,168 197,298 125,330" fill="#6e5219"/>
+    <polygon points="53,168 125,200 197,168 125,136" fill="#e3b341"/>
+    <polygon points="53,168 125,200 197,168 125,136" fill="none" stroke="#f5d78a" stroke-width="1.5"/>
+    <polygon points="89,168 125,184 161,168 125,152" fill="none" stroke="#6e5219" stroke-width="1.6"/>
+    <polygon points="107,168 125,176 143,168 125,160" fill="#6e5219"/>
+    <text class="sans" x="125" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">Genxploit</text>
+    <text class="mono" x="125" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#e3b341">#1 HALL OF FAME</text>
+  </g>
+
+  <!-- ───────── 2. Ai Web Solutions · h=112 · topCy=186 ───────── -->
+  <g class="col p2">
+    <ellipse class="beam b2" cx="300" cy="330" rx="80" ry="14" fill="#38C2FF" filter="url(#dsoft)"/>
+    <polygon points="228,186 300,218 300,330 228,298" fill="#2489b8"/>
+    <polygon points="300,218 372,186 372,298 300,330" fill="#175a76"/>
+    <polygon points="228,186 300,218 372,186 300,154" fill="#38C2FF"/>
+    <polygon points="228,186 300,218 372,186 300,154" fill="none" stroke="#a5e2ff" stroke-width="1.5"/>
+    <polygon points="264,186 300,202 336,186 300,170" fill="none" stroke="#175a76" stroke-width="1.6"/>
+    <text class="sans" x="300" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">Ai Web Solutions</text>
+    <text class="mono" x="300" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#38C2FF">HALL OF FAME</text>
+  </g>
+
+  <!-- ───────── 3. Sakana AI · h=104 · topCy=194 ───────── -->
+  <g class="col p3">
+    <ellipse class="beam b3" cx="475" cy="330" rx="80" ry="14" fill="#ff7b72" filter="url(#dsoft)"/>
+    <polygon points="403,194 475,226 475,330 403,298" fill="#b8564f"/>
+    <polygon points="475,226 547,194 547,298 475,330" fill="#762f2a"/>
+    <polygon points="403,194 475,226 547,194 475,162" fill="#ff7b72"/>
+    <polygon points="403,194 475,226 547,194 475,162" fill="none" stroke="#ffc1bc" stroke-width="1.5"/>
+    <polygon points="439,194 475,210 511,194 475,178" fill="none" stroke="#762f2a" stroke-width="1.6"/>
+    <text class="sans" x="475" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">Sakana AI</text>
+    <text class="mono" x="475" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#ff7b72">CREDIT + SWAG</text>
+  </g>
+
+  <!-- ───────── 4. QENEX · h=96 · topCy=202 ───────── -->
+  <g class="col p4">
+    <ellipse class="beam b4" cx="650" cy="330" rx="80" ry="14" fill="#a371f7" filter="url(#dsoft)"/>
+    <polygon points="578,202 650,234 650,330 578,298" fill="#7450b0"/>
+    <polygon points="650,234 722,202 722,298 650,330" fill="#4a3170"/>
+    <polygon points="578,202 650,234 722,202 650,170" fill="#a371f7"/>
+    <polygon points="578,202 650,234 722,202 650,170" fill="none" stroke="#d2b8ff" stroke-width="1.5"/>
+    <polygon points="614,202 650,218 686,202 650,186" fill="none" stroke="#4a3170" stroke-width="1.6"/>
+    <text class="sans" x="650" y="154" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">QENEX</text>
+    <text class="mono" x="650" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#a371f7">APPRECIATION</text>
+  </g>
+
+  <!-- ───────── 5. Humphreys University · h=84 · topCy=214 ───────── -->
+  <g class="col p5">
+    <ellipse class="beam b5" cx="825" cy="330" rx="80" ry="14" fill="#3fb950" filter="url(#dsoft)"/>
+    <polygon points="753,214 825,246 825,330 753,298" fill="#2d8339"/>
+    <polygon points="825,246 897,214 897,298 825,330" fill="#1a5222"/>
+    <polygon points="753,214 825,246 897,214 825,182" fill="#3fb950"/>
+    <polygon points="753,214 825,246 897,214 825,182" fill="none" stroke="#9ff0a6" stroke-width="1.5"/>
+    <polygon points="789,214 825,230 861,214 825,198" fill="none" stroke="#1a5222" stroke-width="1.6"/>
+    <text class="sans" x="825" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">Humphreys Univ.</text>
+    <text class="mono" x="825" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#3fb950">APPRECIATION</text>
+  </g>
+
+  <!-- ───────── 6. TinyTax · h=76 · topCy=222 ───────── -->
+  <g class="col p6">
+    <ellipse class="beam b6" cx="1000" cy="330" rx="80" ry="14" fill="#58a6ff" filter="url(#dsoft)"/>
+    <polygon points="928,222 1000,254 1000,330 928,298" fill="#3f76b8"/>
+    <polygon points="1000,254 1072,222 1072,298 1000,330" fill="#274a73"/>
+    <polygon points="928,222 1000,254 1072,222 1000,190" fill="#58a6ff"/>
+    <polygon points="928,222 1000,254 1072,222 1000,190" fill="none" stroke="#b6dbff" stroke-width="1.5"/>
+    <polygon points="964,222 1000,238 1036,222 1000,206" fill="none" stroke="#274a73" stroke-width="1.6"/>
+    <text class="sans" x="1000" y="174" text-anchor="middle" font-size="15" font-weight="700" fill="#e6edf3">TinyTax</text>
+    <text class="mono" x="1000" y="356" text-anchor="middle" font-size="10.5" letter-spacing="1.1" fill="#58a6ff">VENDOR CONFIRMED</text>
+  </g>
+
+  <line x1="40" y1="378" x2="1060" y2="378" stroke="#21262d"/>
+</svg>

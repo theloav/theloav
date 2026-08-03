@@ -1,22 +1,13 @@
-<!-- ====================== HEADER ====================== -->
-<a href="https://github.com/theloav">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,50:1a4d80,100:38C2FF&height=200&section=header&text=Shrivarshan%20Kasi%20Arul&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Security%20Engineer%20%C2%B7%20Red%20Teamer%20%C2%B7%20AI%20Security%20Researcher&descAlignY=58&descSize=18" alt="header" />
+<!-- ═══════════════════ 3D HERO (hand-coded isometric SVG · /assets) ═══════════════════ -->
+<a href="https://shrivarshan-portfolio.vercel.app/">
+  <img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/hero-3d.svg" alt="Shrivarshan Kasi Arul — Security Engineer, Red Teamer, AI Security Researcher" />
 </a>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=38C2FF&center=true&vCenter=true&width=1500&lines=Hi+%F0%9F%91%8B%2C+I'm+Shrivarshan+Kasi+Arul;Security+Engineer+%C2%B7+Red+Teamer+%C2%B7+AI+Security+Researcher;I+break+LLMs+before+attackers+do+%F0%9F%A4%96%F0%9F%94%90;%231+Bug+Bounty+Hall+of+Fame+%F0%9F%8F%86" alt="Typing SVG" />
-</p>
 
 <p align="center">
   <a href="https://shrivarshan-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-38C2FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/shri-arshan-743717270/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:shrivarshan81@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=theloav&style=for-the-badge&color=38C2FF&label=PROFILE+VIEWS" />
-</p>
-
-<!-- Custom animated hacker-terminal (hand-coded SVG in /assets) -->
-<p align="center">
-  <img width="80%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/terminal.svg" alt="security terminal" />
 </p>
 
 <img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
@@ -30,7 +21,7 @@ class Shrivarshan:
                   "DevSecOps", "Detection Engineering", "DFIR"]
     currently  = "Securing production apps across India & UK teams"
     building   = "Agentic security tooling that closes the offensive -> defensive loop"
-    flex       = "#1 Bug Bounty Hall of Fame  ·  Prompt-injection disclosures in live AI agents"
+    flex       = "6 vendor credits  ·  #1 Bug Bounty Hall of Fame"
     motto      = "Securing today for a safer tomorrow."
 ```
 
@@ -39,9 +30,13 @@ class Shrivarshan:
 - 🔬 I build open-source tools that **attack *and* defend** — from LLM purple-teaming to detection-as-code
 - 📫 Reach me at `shrivarshan81@gmail.com`
 
----
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
-### 🤖🔐 AI Security Research — Spotlight
+## 🏆 Responsible Disclosure Record
+
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/disclosures-3d.svg" alt="Isometric chart of responsible-disclosure credits across six vendors" />
+
+### 🤖🔐 AI / LLM Security Research
 
 > I don't just test LLMs — I break them in production and disclose responsibly.
 > My focus: **indirect prompt injection → tool misuse → data exfiltration**, persona overrides & RAG poisoning.
@@ -51,16 +46,25 @@ class Shrivarshan:
 | **Sakana AI** 🇯🇵 | Prompt-injection vulnerability | Responsibly disclosed · rewarded with official swag 🎁 (hoodie, caps, notebook) |
 | **Pokee.ai** | 3 critical bugs — persona-override injection → **live bash infra exfiltration** | Responsible disclosure report |
 | **Kimi AI** (Moonshot AI) | Critical safety bypass | Technical report w/ root-cause + mitigations |
-| **TinyTax** 🇬🇧 (tinytax.co.uk) | Session-management vulnerability | Disclosed to vendor w/ PoC + remediation |
+
+### 🕵️ Web & API Vulnerability Disclosure (VDP)
+
+| 🎯 Target | 🔓 Finding | 🏅 Outcome |
+|:--|:--|:--|
+| **Ai Web Solutions Ltd** 🇬🇧 | Critical severity — remediated & retest-verified within 24 h *(details under vendor embargo)* | 🥇 Listed in their public [**Security Acknowledgements**](https://www.ai-websolutions.com/responsible-disclosure-policy) |
+| **QENEX Ltd** 🇬🇧 (qenex.ai) | 2 × Medium unauthenticated exposure on the Pulse API *(coordinated disclosure — details held until remediation)* | ✉️ **Letter of Appreciation** |
+| **Genxploit** | Sensitive data exposure (full user-profile DB) + business-logic flaw | 🥇 **#1 on the Hall of Fame leaderboard** |
+| **Humphreys University** 🇺🇸 | LDAP vulnerability | ✉️ **Letter of Appreciation** |
+| **TinyTax** 🇬🇧 (tinytax.co.uk) | Session-management vulnerability | Disclosed to vendor w/ PoC + remediation guidance |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Bug_Bounty-%231_Hall_of_Fame-gold?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vendor_Credits-6-38C2FF?style=flat-square" />
   <img src="https://img.shields.io/badge/Prompt_Injection-Disclosed-critical?style=flat-square" />
-  <img src="https://img.shields.io/badge/LLM_Red_Teaming-Active-38C2FF?style=flat-square" />
   <img src="https://img.shields.io/badge/OWASP_LLM_Top_10-Mapped-orange?style=flat-square" />
 </p>
 
----
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
 ### 🧠 Tech Arsenal
 
@@ -118,20 +122,11 @@ AI-powered **malware RE platform** — reconstructs a sample's lifecycle from st
 <tr>
 <td width="50%" valign="top">
 
-#### ⚖️ [SAKSHI](https://github.com/theloav/SAKSHI)
-**Content-blind, agentic investigation assistant** for child-protection units — turns scattered evidence into ranked, court-ready leads **without ever ingesting the material**. Built for *Hac'KP 2026 · Kerala Police Cyberdome*.
-`Agentic AI` `DFIR` `Privacy-by-Design`
-
-</td>
-<td width="50%" valign="top">
-
 #### 🟣 [Purple Team Framework](https://github.com/theloav/purple-team-framework)
 Full offensive→defensive loop: **Caldera** runs adversary sims → **Elastic** fires detections → **ATT&CK** coverage measured automatically. 4 threat-actor profiles (APT29/FIN7/Lazarus/Ransomware), 30+ techniques.
 `Purple Team` `ATT&CK` `Detection Gaps`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🛰️ [Detection-as-Code](https://github.com/theloav/detection-as-a-code-pipeline)
@@ -139,6 +134,8 @@ Manage **Microsoft Sentinel** rules as code — write Sigma YAML, CI converts to
 `Detection Eng` `Sigma→KQL` `CI/CD`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🧵 [Threat-Intel Pipeline](https://github.com/theloav/threat-intelligence-pipeline)
@@ -146,8 +143,6 @@ Full CTI lifecycle: **OTX + Abuse.ch → MISP → enrich Sentinel/Elastic alerts
 `Threat Intel` `MISP` `Enrichment`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🧪 [LLM Security Tester](https://github.com/theloav/llm-security-framework)
@@ -155,6 +150,8 @@ Modular CLI that tests LLM apps across **5 attack categories / 25 curated cases*
 `AI Security` `pip install` `CI-ready`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 🔎 [Semgrep Enterprise Rules](https://github.com/theloav/semgrep-enterprise-rules)
@@ -162,12 +159,16 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
 `AppSec` `SAST` `Detection Content`
 
 </td>
+<td width="50%" valign="top">
+
+<br/>
+<p align="center"><i>…and more at<br/><a href="https://github.com/theloav?tab=repositories">github.com/theloav</a></i></p>
+
+</td>
 </tr>
 </table>
 
-<p align="center"><i>…and more at <a href="https://github.com/theloav?tab=repositories">github.com/theloav</a></i></p>
-
----
+<img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
 ### 💼 Experience
 
@@ -182,8 +183,6 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
 
 **⚙️ Cybersecurity Intern** — *NIELIT Calicut* · Jun 2024
 - Metasploit-based exploitation across target machines; traced & analysed real-world regional attacks
-
----
 
 ### 🛡️ Certifications
 
@@ -200,40 +199,20 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
 
 </div>
 
----
-
-### 🏆 Achievements
-
-- 🥇 **#1 Bug Bounty Hall of Fame — [Genxploit](https://genxploit.com)** — disclosed Sensitive Data Exposure (full user-profile DB) + a business-logic flaw; ranked **1st** on the leaderboard
-- 🎁 **Responsible Disclosure @ Sakana AI** — prompt-injection finding, rewarded with official swag
-- 🔓 **Prompt-injection & safety-bypass disclosures** — Pokee.ai (live agent infra exfil) & Kimi AI (Moonshot AI)
-- 🇬🇧 **Session vulnerability disclosure — TinyTax (tinytax.co.uk)** — reported to vendor with PoC + remediation
-- 📝 **Letter of Appreciation — Humphreys University (USA)** — LDAP vulnerability disclosure
-- 🥈 **2nd Place — Cryptic Quest (National Level)**, SRM Valliammai College
-
----
-
-### 🎓 Education
+### 🎓 Education & Other Wins
 
 **B.Tech in Computer Science & Engineering (Cybersecurity)** — *Vel Tech R&D Institute of Science and Technology* · 2022 – 2026
 
+- 🥈 **2nd Place — Cryptic Quest (National Level)**, SRM Valliammai College
+
 <img width="100%" src="https://raw.githubusercontent.com/theloav/theloav/main/assets/divider.svg" alt="divider" />
 
-### 📈 GitHub Stats
+### 📈 Activity
 
 <p align="center">
-  <img width="80%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theloav&theme=radical" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theloav&theme=radical" height="185"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theloav&theme=radical" height="185"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theloav&theme=radical" height="185"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theloav&theme=radical&utcOffset=5.5" height="185"/>
+  <img src="https://streak-stats.demolab.com?user=theloav&theme=react&hide_border=true&background=0D1117&ring=38C2FF&fire=38C2FF&currStreakLabel=38C2FF" height="180" />
 </p>
 
-<!-- Animated contribution activity graph -->
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=theloav&theme=react-dark&bg_color=141321&color=38C2FF&line=38C2FF&point=ffffff&hide_border=true&area=true" alt="activity graph" />
 </p>
@@ -242,8 +221,6 @@ Production-grade **Semgrep rules** for real vuln classes (SSRF, JWT-none, deseri
 <p align="center">
   <img width="95%" alt="snake animation" src="https://raw.githubusercontent.com/theloav/theloav/output/github-contribution-grid-snake-dark.svg" />
 </p>
-
----
 
 <p align="center">
   <img src="https://img.shields.io/badge/%22Securing_today_for_a_safer_tomorrow.%22-38C2FF?style=for-the-badge" />
